@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="/"><img src="img/logo2.png" alt="404"></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About me</a></li>
+                <li><a href="#project"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                <li><a href="#skill"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+            </ul>
+        </div>
+        <div id="m-btn">
+            <div id="menu" class="menu"><i class="fa-solid fa-bars"></i></div>
+            <div id="cross" class="cross"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+    </nav>
+
+    <aside id="asideBar">
+        <div class="newNavbar">
+            <ul id="navID">
+                <li><a onclick="hide()" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a onclick="hide()" href="#about"><i class="fa-solid fa-user"></i> About me</a></li>
+                <li><a onclick="hide()" href="#project"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                <li><a onclick="hide()" href="#skill"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a onclick="hide()" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <div id="home">
+        <div class="container">
+            <div class="content">
+                <h1>Hii, My name is <span>Mohammed Adeen Ansari!</span></h1>
+                <h2>I'm a <span class="typing"></span></h2>
+                <div class="btn">
+                    <a href="#contact"><button type="button" id="btn1">Contact Me <i
+                                class="fa-solid fa-address-book"></i></button></a>
+                    <a href="#"><button type="button" id="btn2">Download CV <i
+                                class="fa-solid fa-download"></i></button></a>
+                </div>
+            </div>
+            <div id="photo">
+                <!-- <img src="img/me.jpg" alt="404"> -->
+                <img src="img/avatar2.jpeg" alt="404">
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="main-head">
+            <h1>About me</h1>
+        </div>
+        <div class="container">
+            <div class="content">
+                <h2>Hello 👋</h2>
+                <p>
+                    I am Mohammed Adeen Ansari 😎 and I am from 📍 Mumbai City, Mumbai, Maharashtra 🇮🇳<br>
+                    I am 20 Years Old 👼<br>
+                    I am pursing 🎓 Btech 3rd year in 👩‍💻 Computer Engineering at 🏫 Rizvi College of Engineeing,
+                    Bandra<br>
+                    I am learning 🍵 Java & 🐍 Python Programming<br>
+                    I love 💘 Software Engineering <br>
+                    I also love Gaming and spending time on lappy
+                </p>
+                <h2>Thank you Reading!!!🤗</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="social-container">
+            <h2>Connect with me, I am very Responsive Person!</h2>
+            <div class="connect">
+                <div class="social github">
+                    <a rel="noopener" target="_blank" href="https://github.com/Mohd-Adeen">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                        <input type="button" value="Watch Out">
+                    </a>
+                </div>
+                <div class="social linkedin">
+                    <a rel="noopener" href="https://www.linkedin.com/in/mohd-adeen/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <input type="button" value="Connect">
+                    </a>
+                </div>
+                <div class="social instagram">
+                    <a rel="noopener" href="https://www.instagram.com/mohd.adeen_/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instragram</span>
+                        <input type="button" value="Follow me">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="project">
+        <div class="main-head">
+            <h1>My Projects</h1>
+        </div>
+        <div class="project-contain">
+            <div class="project">
+                <h3>sales Analysis</h3>
+                <p>Solving real world data science problem using Python and Pandas on Jupyter Notebook. In this project, we analyse a sales record and answers few questions.</p>
+                <div class="lang">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+                <a rel="noopener" target="_blank" href="https://github.com/Mohd-Adeen/Sales-Analysis-using-Pandas"><input type="button"
+                        value="Github"></a>
+            </div>
+            <div class="project">
+                <h3>Intelligence Traffic Monitoring System</h3>
+                <p>The objective of this project is to design and develop an accurate and automatic number plate recognition system, Automatic traffic light control using google api live traffic density data, smart fine system.</p>
+                <div class="lang">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>YARN</span>
+                    <span>PyTesseract</span>
+                </div>
+                <a rel="noopener" target="_blank" href="https://github.com/Mohd-Adeen/Intelligence-Traffic-Monitoring-System"><input type="button"
+                        value="Github"></a>
+            </div>
+
+            <div class="project">
+                <h3>Fitness Website</h3>
+                <p>A personalized fitness website of Ace Fitness. Providing personal chat with trainer and videos of various exercise to workout anywhere. It also provide various membership for the customer.</p>
+                <div class="lang">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Php</span>
+                    <span>MySQL</span>
+                </div>
+                <a rel="noopener" target="_blank" href="https://github.com/Mohd-Adeen/AceFitness"><input type="button"
+                        value="Github"></a>
+            </div>
+
+            <div class="project">
+                <h3>RFID Based Attendance System</h3>
+                <p>The proposed attendance monitoring system uses the concept of IoT to log and fetch data on the server/cloud and make it available for the user anytime and anywhere. The system provides a practical and efficient solution for monitoring student attendance on a large scale.</p>
+                <div class="lang">
+                    <span>Arduino</span>
+                    <span>C++</span>
+                    <span>JavaScript</span>
+                </div>
+                <a rel="noopener" target="_blank" href="https://github.com/Mohd-Adeen/RFID-based-Attendance-System"><input type="button" value="Github"></a>
+            </div>
+
+            <div class="project">
+                <h3>Chess Game</h3>
+                <p>It is a basic Chess Game using HTML, CSS, JavaScript. In this, Chess logic is used using JavaScript.</p>
+                <div class="lang">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a rel="noopener" target="_blank" href="https://github.com/Mohd-Adeen/Chess-Game"><input type="button"
+                        value="Github"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="skill">
+        <div class="main-head">
+            <h1>My Skills</h1>
+        </div>
+        <div class="skill-contain">
+            <div class="skills" id="c">
+                <abbr title="Advanced" id="Advanced">
+                    <i class="fa-brands fa-c"></i>
+                    <span>C</span>
+                </abbr>
+            </div>
+            <div class="skills" id="cplusplus">
+                <abbr title="Beginner" id="Beginner">
+                    <i class="fa-solid fa-code"></i>
+                    <span>C++</span>
+                </abbr>
+            </div>
+            <div class="skills" id="py">
+                <abbr title="Advanced" id="Advanced">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </abbr>
+            </div>
+            <div class="skills" id="html">
+                <abbr title="Intermediate" id="Intermediate">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </abbr>
+            </div>
+            <div class="skills" id="css">
+                <abbr title="Advanced" id="Advanced">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </abbr>
+            </div>
+            <div class="skills" id="js">
+                <abbr title="Advanced" id="Advanced">
+                    <i class="fa-brands fa-square-js"></i>
+                    <span>JavaScript</span>
+                </abbr>
+            </div>
+            <div class="skills" id="java">
+                <abbr title="Advanced" id="Advanced">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
+                </abbr>
+            </div>
+            <div class="skills" id="sql">
+                <abbr title="Beginner" id="Beginner">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL, PostgresSQL</span>
+                </abbr>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="main-head">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contact-contain">
+            <div class="contact-info">
+                <h3>Do you want to connect with me?</h3>
+                <div id="info-item">
+                    <div class="info-item">
+                        <i class="fa fa-envelope"></i>
+                        <p>Email</p>
+                        <span><a href="mailto:moinnaik98@gmail.com">mohd.adeen7030@gmail.com</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa fa-globe-europe"></i>
+                        <p>Github</p>
+                        <span><a rel="noopener" href="https://github.com/Mohd-Adeen" target="_blank">Click me</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <p>Address</p>
+                        <span>Mumbai, Maharashtra</span>
+                    </div>
+                </div>
+                <h3>Send Me An Mail</h3>
+                <h5>I'm very Responsive on Messages</h5>
+            </div>
+
+            <form target="_blank" action="https://formsubmit.co/7a9850950c14977b80d0e9bfed0e2523" method="POST">
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                </div>
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <textarea name="message" id="message" placeholder="Enter your Message" required></textarea>
+                <div class="btn">
+                    <button class="btn3" type="submit">Send Message</button>
+                    <button class="btn3" type="reset">Clear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="left">
+            <span>Developed & Maintained by <a rel="noopener" href="https://www.linkedin.com/in/mohd-adeen/" target="_blank">Mohammed Adeen Ansari</a></span>
+            <div class="links">
+                <a rel="noopener" id="github" target="_blank" href="https://github.com/Mohd-Adeen"><i class="fa-brands fa-github"></i></a>
+                <a rel="noopener" id="linedin" target="_blank" href="https://linkedin.com/in/mohd-adeen"><i class="fa-brands fa-linkedin"></i></a>
+                <a rel="noopener" id="insta" target="_blank" href="https://instagram.com/mohd.adeen_"><i class="fa-brands fa-instagram"></i></a>            
+            </div>
+        </div>
+        <div class="right">
+            <span>version 1.0.1</span>
+            <span>copyrights © Mohammed Adeen Ansari</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://kit.fontawesome.com/437000937b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
